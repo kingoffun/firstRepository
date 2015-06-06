@@ -1,0 +1,9 @@
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\bin\Debug\dataCoding.exe.config
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\bin\Debug\dataCoding.exe
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\bin\Debug\dataCoding.pdb
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\obj\Debug\dataCoding.csprojResolveAssemblyReference.cache
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\obj\Debug\dataCoding.MainForm.resources
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\obj\Debug\dataCoding.Properties.Resources.resources
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\obj\Debug\dataCoding.csproj.GenerateResource.Cache
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\obj\Debug\dataCoding.exe
+D:\first_steps_for_a_dream\vs_projects\dataCoding\dataCoding\obj\Debug\dataCoding.pdb
