@@ -206,6 +206,22 @@ namespace dataCoding
             }
         }
 
+        private void lzwButton_Click(object sender, EventArgs e)
+        {
+            LZW lzwOne = new LZW(stringMessage);
+
+            lzwOne.DoLZWCoding();
+
+
+//            foreach (char c in stringMessage)
+//            {
+//                lzwCodeTextBox.Text = lzwCodeTextBox.Text  + lzwOne.GetLZWKey(c) + " ";
+//            }
+
+            lzwCodeTextBox.Text = lzwOne.LzwCode;
+
+        }
+
 
     }
 }
