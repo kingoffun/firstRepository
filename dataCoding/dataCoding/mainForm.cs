@@ -208,18 +208,19 @@ namespace dataCoding
 
         private void lzwButton_Click(object sender, EventArgs e)
         {
-            LZW lzwOne = new LZW(stringMessage);
+            LZW lzwOne = new LZW(stringMessage + stringMessage);
 
             lzwOne.DoLZWCoding();
 
-
-//            foreach (char c in stringMessage)
-//            {
-//                lzwCodeTextBox.Text = lzwCodeTextBox.Text  + lzwOne.GetLZWKey(c) + " ";
-//            }
-
             lzwCodeTextBox.Text = lzwOne.LzwCode;
 
+        }
+
+        private void rleButton_Click(object sender, EventArgs e)
+        {
+            RLE rleOne = new RLE();
+
+            rleCodeTextBox.Text = rleOne.GetRLECode(rleTextBox.Text);
         }
 
 

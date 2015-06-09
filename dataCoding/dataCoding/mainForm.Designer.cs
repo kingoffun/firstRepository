@@ -42,6 +42,10 @@
             this.lzwCodeTextBox = new System.Windows.Forms.TextBox();
             this.lzwLabel = new System.Windows.Forms.Label();
             this.lzwTextBox = new System.Windows.Forms.TextBox();
+            this.rleButton = new System.Windows.Forms.Button();
+            this.rleCodeTextBox = new System.Windows.Forms.TextBox();
+            this.rleLabel = new System.Windows.Forms.Label();
+            this.rleTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // shenonFanoMessTextBox
@@ -176,11 +180,53 @@
             this.lzwTextBox.Text = "король";
             this.lzwTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // rleButton
+            // 
+            this.rleButton.Location = new System.Drawing.Point(346, 227);
+            this.rleButton.Name = "rleButton";
+            this.rleButton.Size = new System.Drawing.Size(101, 28);
+            this.rleButton.TabIndex = 14;
+            this.rleButton.Text = "Кодувати";
+            this.rleButton.UseVisualStyleBackColor = true;
+            this.rleButton.Click += new System.EventHandler(this.rleButton_Click);
+            // 
+            // rleCodeTextBox
+            // 
+            this.rleCodeTextBox.Location = new System.Drawing.Point(177, 232);
+            this.rleCodeTextBox.Name = "rleCodeTextBox";
+            this.rleCodeTextBox.ReadOnly = true;
+            this.rleCodeTextBox.Size = new System.Drawing.Size(142, 20);
+            this.rleCodeTextBox.TabIndex = 13;
+            this.rleCodeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // rleLabel
+            // 
+            this.rleLabel.AutoSize = true;
+            this.rleLabel.Location = new System.Drawing.Point(184, 206);
+            this.rleLabel.Name = "rleLabel";
+            this.rleLabel.Size = new System.Drawing.Size(131, 13);
+            this.rleLabel.TabIndex = 12;
+            this.rleLabel.Text = "Кодування довжин серій";
+            // 
+            // rleTextBox
+            // 
+            this.rleTextBox.Location = new System.Drawing.Point(40, 232);
+            this.rleTextBox.Name = "rleTextBox";
+            this.rleTextBox.ReadOnly = true;
+            this.rleTextBox.Size = new System.Drawing.Size(99, 20);
+            this.rleTextBox.TabIndex = 11;
+            this.rleTextBox.Text = "король";
+            this.rleTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 383);
+            this.Controls.Add(this.rleButton);
+            this.Controls.Add(this.rleCodeTextBox);
+            this.Controls.Add(this.rleLabel);
+            this.Controls.Add(this.rleTextBox);
             this.Controls.Add(this.lzwButton);
             this.Controls.Add(this.lzwCodeTextBox);
             this.Controls.Add(this.lzwLabel);
@@ -221,5 +267,9 @@
         private System.Windows.Forms.TextBox lzwCodeTextBox;
         private System.Windows.Forms.Label lzwLabel;
         private System.Windows.Forms.TextBox lzwTextBox;
+        private System.Windows.Forms.Button rleButton;
+        private System.Windows.Forms.TextBox rleCodeTextBox;
+        private System.Windows.Forms.Label rleLabel;
+        private System.Windows.Forms.TextBox rleTextBox;
     }
 }
