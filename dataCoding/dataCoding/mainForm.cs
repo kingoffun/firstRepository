@@ -223,6 +223,11 @@ namespace dataCoding
             rleCodeTextBox.Text = rleOne.GetRLECode(rleTextBox.Text);
         }
 
+        private void lz77Button_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }

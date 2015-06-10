@@ -46,6 +46,10 @@
             this.rleCodeTextBox = new System.Windows.Forms.TextBox();
             this.rleLabel = new System.Windows.Forms.Label();
             this.rleTextBox = new System.Windows.Forms.TextBox();
+            this.lz77Button = new System.Windows.Forms.Button();
+            this.lz77CodeTextBox = new System.Windows.Forms.TextBox();
+            this.lz77Label = new System.Windows.Forms.Label();
+            this.lz77TextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // shenonFanoMessTextBox
@@ -218,11 +222,53 @@
             this.rleTextBox.Text = "король";
             this.rleTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // lz77Button
+            // 
+            this.lz77Button.Location = new System.Drawing.Point(343, 288);
+            this.lz77Button.Name = "lz77Button";
+            this.lz77Button.Size = new System.Drawing.Size(101, 28);
+            this.lz77Button.TabIndex = 18;
+            this.lz77Button.Text = "Кодувати";
+            this.lz77Button.UseVisualStyleBackColor = true;
+            this.lz77Button.Click += new System.EventHandler(this.lz77Button_Click);
+            // 
+            // lz77CodeTextBox
+            // 
+            this.lz77CodeTextBox.Location = new System.Drawing.Point(174, 293);
+            this.lz77CodeTextBox.Name = "lz77CodeTextBox";
+            this.lz77CodeTextBox.ReadOnly = true;
+            this.lz77CodeTextBox.Size = new System.Drawing.Size(142, 20);
+            this.lz77CodeTextBox.TabIndex = 17;
+            this.lz77CodeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lz77Label
+            // 
+            this.lz77Label.AutoSize = true;
+            this.lz77Label.Location = new System.Drawing.Point(181, 267);
+            this.lz77Label.Name = "lz77Label";
+            this.lz77Label.Size = new System.Drawing.Size(84, 13);
+            this.lz77Label.TabIndex = 16;
+            this.lz77Label.Text = "Алгоритм LZ77";
+            // 
+            // lz77TextBox
+            // 
+            this.lz77TextBox.Location = new System.Drawing.Point(37, 293);
+            this.lz77TextBox.Name = "lz77TextBox";
+            this.lz77TextBox.ReadOnly = true;
+            this.lz77TextBox.Size = new System.Drawing.Size(99, 20);
+            this.lz77TextBox.TabIndex = 15;
+            this.lz77TextBox.Text = "король";
+            this.lz77TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 383);
+            this.Controls.Add(this.lz77Button);
+            this.Controls.Add(this.lz77CodeTextBox);
+            this.Controls.Add(this.lz77Label);
+            this.Controls.Add(this.lz77TextBox);
             this.Controls.Add(this.rleButton);
             this.Controls.Add(this.rleCodeTextBox);
             this.Controls.Add(this.rleLabel);
@@ -271,5 +317,9 @@
         private System.Windows.Forms.TextBox rleCodeTextBox;
         private System.Windows.Forms.Label rleLabel;
         private System.Windows.Forms.TextBox rleTextBox;
+        private System.Windows.Forms.Button lz77Button;
+        private System.Windows.Forms.TextBox lz77CodeTextBox;
+        private System.Windows.Forms.Label lz77Label;
+        private System.Windows.Forms.TextBox lz77TextBox;
     }
 }
