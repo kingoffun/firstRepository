@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace dataCoding
@@ -225,7 +219,11 @@ namespace dataCoding
 
         private void lz77Button_Click(object sender, EventArgs e)
         {
+            LZ77 lz77One = new LZ77();
 
+            lz77One.DoEncoding(lz77TextBox.Text);
+
+            lz77CodeTextBox.Text = lz77One.ToString();
         }
 
 

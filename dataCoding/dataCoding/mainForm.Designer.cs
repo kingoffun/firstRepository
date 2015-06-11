@@ -54,7 +54,7 @@
             // 
             // shenonFanoMessTextBox
             // 
-            this.shenonFanoMessTextBox.Location = new System.Drawing.Point(40, 60);
+            this.shenonFanoMessTextBox.Location = new System.Drawing.Point(188, 38);
             this.shenonFanoMessTextBox.Name = "shenonFanoMessTextBox";
             this.shenonFanoMessTextBox.ReadOnly = true;
             this.shenonFanoMessTextBox.Size = new System.Drawing.Size(99, 20);
@@ -65,7 +65,7 @@
             // shenonFanoLabel
             // 
             this.shenonFanoLabel.AutoSize = true;
-            this.shenonFanoLabel.Location = new System.Drawing.Point(184, 9);
+            this.shenonFanoLabel.Location = new System.Drawing.Point(46, 41);
             this.shenonFanoLabel.Name = "shenonFanoLabel";
             this.shenonFanoLabel.Size = new System.Drawing.Size(130, 13);
             this.shenonFanoLabel.TabIndex = 1;
@@ -74,7 +74,7 @@
             // shenonFanoMessLabel
             // 
             this.shenonFanoMessLabel.AutoSize = true;
-            this.shenonFanoMessLabel.Location = new System.Drawing.Point(42, 34);
+            this.shenonFanoMessLabel.Location = new System.Drawing.Point(197, 12);
             this.shenonFanoMessLabel.Name = "shenonFanoMessLabel";
             this.shenonFanoMessLabel.Size = new System.Drawing.Size(79, 13);
             this.shenonFanoMessLabel.TabIndex = 2;
@@ -82,17 +82,17 @@
             // 
             // shenonFanoCodeTextBox
             // 
-            this.shenonFanoCodeTextBox.Location = new System.Drawing.Point(177, 60);
+            this.shenonFanoCodeTextBox.Location = new System.Drawing.Point(302, 38);
             this.shenonFanoCodeTextBox.Name = "shenonFanoCodeTextBox";
             this.shenonFanoCodeTextBox.ReadOnly = true;
-            this.shenonFanoCodeTextBox.Size = new System.Drawing.Size(142, 20);
+            this.shenonFanoCodeTextBox.Size = new System.Drawing.Size(202, 20);
             this.shenonFanoCodeTextBox.TabIndex = 3;
             this.shenonFanoCodeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(184, 34);
+            this.label1.Location = new System.Drawing.Point(343, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(129, 13);
             this.label1.TabIndex = 4;
@@ -100,7 +100,7 @@
             // 
             // shenonFanoButton
             // 
-            this.shenonFanoButton.Location = new System.Drawing.Point(346, 55);
+            this.shenonFanoButton.Location = new System.Drawing.Point(518, 33);
             this.shenonFanoButton.Name = "shenonFanoButton";
             this.shenonFanoButton.Size = new System.Drawing.Size(102, 29);
             this.shenonFanoButton.TabIndex = 5;
@@ -110,7 +110,7 @@
             // 
             // haphmanButton
             // 
-            this.haphmanButton.Location = new System.Drawing.Point(346, 111);
+            this.haphmanButton.Location = new System.Drawing.Point(518, 72);
             this.haphmanButton.Name = "haphmanButton";
             this.haphmanButton.Size = new System.Drawing.Size(101, 28);
             this.haphmanButton.TabIndex = 6;
@@ -120,7 +120,7 @@
             // 
             // haphmanTextBox
             // 
-            this.haphmanTextBox.Location = new System.Drawing.Point(40, 116);
+            this.haphmanTextBox.Location = new System.Drawing.Point(188, 77);
             this.haphmanTextBox.Name = "haphmanTextBox";
             this.haphmanTextBox.ReadOnly = true;
             this.haphmanTextBox.Size = new System.Drawing.Size(99, 20);
@@ -130,17 +130,17 @@
             // 
             // haphmanCodeTextBox
             // 
-            this.haphmanCodeTextBox.Location = new System.Drawing.Point(177, 116);
+            this.haphmanCodeTextBox.Location = new System.Drawing.Point(302, 77);
             this.haphmanCodeTextBox.Name = "haphmanCodeTextBox";
             this.haphmanCodeTextBox.ReadOnly = true;
-            this.haphmanCodeTextBox.Size = new System.Drawing.Size(142, 20);
+            this.haphmanCodeTextBox.Size = new System.Drawing.Size(202, 20);
             this.haphmanCodeTextBox.TabIndex = 3;
             this.haphmanCodeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // haphmanLabel
             // 
             this.haphmanLabel.AutoSize = true;
-            this.haphmanLabel.Location = new System.Drawing.Point(191, 90);
+            this.haphmanLabel.Location = new System.Drawing.Point(70, 80);
             this.haphmanLabel.Name = "haphmanLabel";
             this.haphmanLabel.Size = new System.Drawing.Size(106, 13);
             this.haphmanLabel.TabIndex = 1;
@@ -148,7 +148,7 @@
             // 
             // lzwButton
             // 
-            this.lzwButton.Location = new System.Drawing.Point(346, 169);
+            this.lzwButton.Location = new System.Drawing.Point(518, 111);
             this.lzwButton.Name = "lzwButton";
             this.lzwButton.Size = new System.Drawing.Size(101, 28);
             this.lzwButton.TabIndex = 10;
@@ -158,17 +158,17 @@
             // 
             // lzwCodeTextBox
             // 
-            this.lzwCodeTextBox.Location = new System.Drawing.Point(177, 174);
+            this.lzwCodeTextBox.Location = new System.Drawing.Point(302, 116);
             this.lzwCodeTextBox.Name = "lzwCodeTextBox";
             this.lzwCodeTextBox.ReadOnly = true;
-            this.lzwCodeTextBox.Size = new System.Drawing.Size(142, 20);
+            this.lzwCodeTextBox.Size = new System.Drawing.Size(202, 20);
             this.lzwCodeTextBox.TabIndex = 9;
             this.lzwCodeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lzwLabel
             // 
             this.lzwLabel.AutoSize = true;
-            this.lzwLabel.Location = new System.Drawing.Point(160, 148);
+            this.lzwLabel.Location = new System.Drawing.Point(10, 119);
             this.lzwLabel.Name = "lzwLabel";
             this.lzwLabel.Size = new System.Drawing.Size(166, 13);
             this.lzwLabel.TabIndex = 8;
@@ -176,7 +176,7 @@
             // 
             // lzwTextBox
             // 
-            this.lzwTextBox.Location = new System.Drawing.Point(40, 174);
+            this.lzwTextBox.Location = new System.Drawing.Point(188, 116);
             this.lzwTextBox.Name = "lzwTextBox";
             this.lzwTextBox.ReadOnly = true;
             this.lzwTextBox.Size = new System.Drawing.Size(99, 20);
@@ -186,7 +186,7 @@
             // 
             // rleButton
             // 
-            this.rleButton.Location = new System.Drawing.Point(346, 227);
+            this.rleButton.Location = new System.Drawing.Point(518, 149);
             this.rleButton.Name = "rleButton";
             this.rleButton.Size = new System.Drawing.Size(101, 28);
             this.rleButton.TabIndex = 14;
@@ -196,17 +196,17 @@
             // 
             // rleCodeTextBox
             // 
-            this.rleCodeTextBox.Location = new System.Drawing.Point(177, 232);
+            this.rleCodeTextBox.Location = new System.Drawing.Point(302, 154);
             this.rleCodeTextBox.Name = "rleCodeTextBox";
             this.rleCodeTextBox.ReadOnly = true;
-            this.rleCodeTextBox.Size = new System.Drawing.Size(142, 20);
+            this.rleCodeTextBox.Size = new System.Drawing.Size(202, 20);
             this.rleCodeTextBox.TabIndex = 13;
             this.rleCodeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // rleLabel
             // 
             this.rleLabel.AutoSize = true;
-            this.rleLabel.Location = new System.Drawing.Point(184, 206);
+            this.rleLabel.Location = new System.Drawing.Point(45, 157);
             this.rleLabel.Name = "rleLabel";
             this.rleLabel.Size = new System.Drawing.Size(131, 13);
             this.rleLabel.TabIndex = 12;
@@ -214,7 +214,7 @@
             // 
             // rleTextBox
             // 
-            this.rleTextBox.Location = new System.Drawing.Point(40, 232);
+            this.rleTextBox.Location = new System.Drawing.Point(188, 154);
             this.rleTextBox.Name = "rleTextBox";
             this.rleTextBox.ReadOnly = true;
             this.rleTextBox.Size = new System.Drawing.Size(99, 20);
@@ -224,7 +224,7 @@
             // 
             // lz77Button
             // 
-            this.lz77Button.Location = new System.Drawing.Point(343, 288);
+            this.lz77Button.Location = new System.Drawing.Point(519, 187);
             this.lz77Button.Name = "lz77Button";
             this.lz77Button.Size = new System.Drawing.Size(101, 28);
             this.lz77Button.TabIndex = 18;
@@ -234,17 +234,17 @@
             // 
             // lz77CodeTextBox
             // 
-            this.lz77CodeTextBox.Location = new System.Drawing.Point(174, 293);
+            this.lz77CodeTextBox.Location = new System.Drawing.Point(302, 192);
             this.lz77CodeTextBox.Name = "lz77CodeTextBox";
             this.lz77CodeTextBox.ReadOnly = true;
-            this.lz77CodeTextBox.Size = new System.Drawing.Size(142, 20);
+            this.lz77CodeTextBox.Size = new System.Drawing.Size(205, 20);
             this.lz77CodeTextBox.TabIndex = 17;
             this.lz77CodeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lz77Label
             // 
             this.lz77Label.AutoSize = true;
-            this.lz77Label.Location = new System.Drawing.Point(181, 267);
+            this.lz77Label.Location = new System.Drawing.Point(92, 195);
             this.lz77Label.Name = "lz77Label";
             this.lz77Label.Size = new System.Drawing.Size(84, 13);
             this.lz77Label.TabIndex = 16;
@@ -252,7 +252,7 @@
             // 
             // lz77TextBox
             // 
-            this.lz77TextBox.Location = new System.Drawing.Point(37, 293);
+            this.lz77TextBox.Location = new System.Drawing.Point(185, 192);
             this.lz77TextBox.Name = "lz77TextBox";
             this.lz77TextBox.ReadOnly = true;
             this.lz77TextBox.Size = new System.Drawing.Size(99, 20);
@@ -264,7 +264,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 383);
+            this.ClientSize = new System.Drawing.Size(638, 232);
             this.Controls.Add(this.lz77Button);
             this.Controls.Add(this.lz77CodeTextBox);
             this.Controls.Add(this.lz77Label);

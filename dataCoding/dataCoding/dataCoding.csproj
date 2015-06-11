@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LZ77.cs" />
+    <Compile Include="LZ77CodeElement.cs" />
     <Compile Include="LZW.cs" />
     <Compile Include="mainForm.cs">
       <SubType>Form</SubType>
