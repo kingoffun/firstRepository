@@ -16,3 +16,6 @@ D:\first_steps_for_a_dream\vs_projects\github\firstRepository\dataCoding\dataCod
 D:\first_steps_for_a_dream\vs_projects\github\firstRepository\dataCoding\dataCoding\obj\Debug\dataCoding.MainForm.resources
 D:\first_steps_for_a_dream\vs_projects\github\firstRepository\dataCoding\dataCoding\obj\Debug\dataCoding.Properties.Resources.resources
 D:\first_steps_for_a_dream\vs_projects\github\firstRepository\dataCoding\dataCoding\obj\Debug\dataCoding.csproj.GenerateResource.Cache
+C:\Users\king\Desktop\123\firstRepository\dataCoding\dataCoding\bin\Debug\dataCoding.exe.config
+C:\Users\king\Desktop\123\firstRepository\dataCoding\dataCoding\obj\Debug\dataCoding.exe
+C:\Users\king\Desktop\123\firstRepository\dataCoding\dataCoding\obj\Debug\dataCoding.pdb

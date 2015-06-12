@@ -3,11 +3,17 @@ using System.Linq;
 
 namespace dataCoding
 {   
+    /// <summary>
+    /// клас кодування інформації
+    /// </summary>
     class LZ77
     {
         
         public List<LZ77CodeElement> lz77CodesList = new List<LZ77CodeElement>();
-
+        /// <summary>
+        /// метод кодування інформації
+        /// </summary>
+        /// <param name="str"> рядок типу string</param>
         public void DoEncoding(string str)
         {
             int posInd = 0;
